@@ -4,6 +4,9 @@
 img{
 	width: 100%;
 }
+body{
+	background-image:url("images/fondo.png");
+}
 
 header{
 	background-color: tomato;
@@ -67,6 +70,8 @@ header img{
 }
 
 #servicios{
+	width:90%;
+	margin:auto;
 
 }
 
@@ -98,6 +103,8 @@ header img{
 #proyectos{
 	border:5px solid black;
 	margin-top: 200px;
+	width:90%;
+	margin:auto;
 }
 
 
@@ -143,4 +150,10 @@ header img{
 #servicios{
 	border:5px solid black;
 	margin-top: 200px;
+}
+.grow:hover
+{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
 }
