@@ -5,10 +5,15 @@ img{
 	width: 100%;
 }
 body{
+<<<<<<< HEAD
 	background-image: url("images/fondo.png");
 }
 
 
+=======
+	background-image:url("images/fondo.png");
+}
+>>>>>>> 087292d91b5a07486ca9fe8213f73b44ea92ac16
 
 header{
 	height: 180px;
@@ -112,6 +117,8 @@ h1{
 }
 
 #servicios{
+	width:90%;
+	margin:auto;
 
 }
 
@@ -143,6 +150,8 @@ h1{
 #proyectos{
 	border:5px solid black;
 	margin-top: 200px;
+	width:90%;
+	margin:auto;
 }
 
 
@@ -199,6 +208,7 @@ h1{
 }
 .grow:hover
 {
+<<<<<<< HEAD
 -webkit-transform: scale(1.2);
 -ms-transform: scale(1.2);
 transform: scale(1.2);
@@ -410,3 +420,9 @@ footer p{
 	background-color: black;
 }
 
+=======
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+>>>>>>> 087292d91b5a07486ca9fe8213f73b44ea92ac16
